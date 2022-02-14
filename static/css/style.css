@@ -1,0 +1,37 @@
+.main {
+    text-align: center;
+}
+
+.guess {
+    width: 18rem;
+    padding: 2rem;
+}
+
+.red {
+    background-color:  red;
+    height: 100px;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.green {
+    background-color:  green;
+    height: 150px;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.fail {
+    background-color:  rgb(215, 218, 54);
+    height: 300px;
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+}
