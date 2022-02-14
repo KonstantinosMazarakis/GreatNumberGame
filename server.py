@@ -20,7 +20,7 @@ def main():
 
 low = '<div class="container red mb-3"><h2>Too Low!</h2></div>'
 high = '<div class="container red mb-3"><h2>Too High!</h2></div>'
-correct = '<div class="container green mb-3"><h2>You guessed Correct!!</h2></div>'
+correct = '<div class="container green mb-3"><h2>You guessed Correct!!</h2><form action="/gg" ><input type="submit" name="submit" value="Play Again" class="ms-2"></form></div>'
 fail = '<div class="container fail mb-3"><h2>You fail me!!</h2><form action="/gg" ><input type="submit" name="submit" value="Play Again" class="ms-2"></form></div>'
 
 @app.route('/guess', methods=["POST"])
